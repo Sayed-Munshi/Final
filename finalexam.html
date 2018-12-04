@@ -1,23 +1,52 @@
-<!Doctype>
-<html lang ="en" dir="ltr">
-    <head>
-        <title>Form View</title>
-        <link rel="stylesheet" href="style.css" type="text/css" />
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/
-        font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6
-        TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-        <h1>User Profile</h1>
-        </br>
-        </br>
-        </head>
-        <body>
-            <div class="text-box">
-                <script type="text/javascript" src="Script.js"></script>
-            <input type="text" name="" placeholder="Name"/>
-            
-            <input type="text" name="" placeholder="Email"/>
-            
-            <input type="text" name="" placeholder="Age"/>
-            </br>
-            <input type="submit" class="Submit" onclick="getInfo()"  name="" value="Add"/>
-        </body>
+<html>
+	<head>
+	   <title>User Profile</title>
+	   <link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+	   <div class="container">
+	        <div class="row">
+			    <h1>User Profiles</h1>
+			    <div class="col">
+				      <h2>NEW USER</h2>
+				   <div class="user-profile">
+				        
+						<input type="tex" placeholder="NAME" />
+						<input type="email" placeholder="EMAIl" />
+						<input type="tex" placeholder="AGE" />
+						<input type="submit" value="ADD">
+				   </div>
+				</div>
+			    <div class="col" style="background:#f9b6b6ee">
+				    <h2>ALL USER</h2>
+					<table>
+						<tr>
+							<td>JANE SMITH | 22</td>
+						</tr>
+						<tr>
+							<td>JHON DOE | 28</td>
+						</tr>
+						<tr>
+							<td>ANDRE MARTINS | 33</td>
+						</tr>
+						<tr>
+							<td>BRUCE WAYNE | 33</td>
+						</tr>
+						<tr>
+							<td>LOIS LANE | 24</td>
+						</tr>
+					</table>
+				
+				</div>
+			    <div class="col">
+				    <div class="round">
+					    <h2>JANE SMITH</h2>
+						<b>22</b>
+						<p>john@smith.info</p>
+					</div>
+				 
+				</div>
+			</div>
+	   </div>
+	</body>
+</html>
